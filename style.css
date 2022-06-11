@@ -44,8 +44,26 @@ pre {
 	border-color: var(--line);
 }
 
-a, a>span {
-	color: var(--orange);
+a {
+	color: #c9c9c9;
+}
+
+.result-ac {
+	color: #009874;
+	font-weight: bold;
+}
+
+.result-pe, .result-tle, .result-mle, .result-ole {
+	color: #fa7268;
+}
+
+.result-wa {
+	color: #dd4124;
+}
+
+.result-pac {
+	color: #efc050;
+	font-weight: bold;
 }
 
 blockquote:hover, blockquote.text-right:hover {
@@ -919,4 +937,16 @@ span.CodeMirror-selectedtext { background: none; }
 
 .editor-toolbar:hover, .editor-wrapper input.title:focus, .editor-wrapper input.title:hover {
 	opacity: 1.0;
+}
+
+span.problem-label {
+	display: inline;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	font-size: 11px;
+	font-weight: 400;
+	padding: 4px 7px;
 }
