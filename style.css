@@ -49,21 +49,21 @@ a {
 }
 
 .result-ac {
-    color: #009874;
-    font-weight: bold;
+	color: #009874;
+	font-weight: bold;
 }
 
 .result-pe, .result-tle, .result-mle, .result-ole {
-    color: #fa7268;
+	color: #fa7268;
 }
 
 .result-wa {
-    color: #dd4124;
+	color: #dd4124;
 }
 
 .result-pac {
-    color: #efc050;
-    font-weight: bold;
+	color: #efc050;
+	font-weight: bold;
 }
 
 blockquote:hover, blockquote.text-right:hover {
@@ -940,13 +940,17 @@ span.CodeMirror-selectedtext { background: none; }
 }
 
 span.problem-label {
-    display: inline;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    font-size: 11px;
-    font-weight: 400;
-    padding: 4px 7px;
+	display: inline;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	font-size: 11px;
+	font-weight: 400;
+	padding: 4px 7px;
+}
+
+#language_chosen > .chosen-single > span {
+	color: var(--black);
 }
