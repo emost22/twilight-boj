@@ -217,8 +217,12 @@ legend {
 	border-radius: 1px;
 	padding: 2px 4px 2px 4px;
 }
-span.label-red, span.badge-red {
+span.label-red {
 	background-color: #444444;
+}
+
+span.badge-red {
+	background-color: #dd4124;
 }
 
 .nav>li>a {
