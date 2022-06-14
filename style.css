@@ -958,3 +958,13 @@ span.problem-label {
 #language_chosen > .chosen-single > span {
 	color: var(--black);
 }
+
+.pagination>.active>a, .pagination>.active>span,
+.pagination>.active>a:hover, .pagination>.active>span:hover,
+.pagination>.active>a:focus, .pagination>.active>span:focus {
+	z-index: 2;
+	color: #fff;
+	cursor: default;
+	background-color: #dd4124;
+	border-color: #dd4124;
+}
